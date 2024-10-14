@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Drum Kit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <h1 class="band-name">The Rhythm Shakers</h1>
+
+    
+    <div class="drum-kit">
+        <div class="drum" id="kick" data-key="k">
+            <p>K</p>
+        </div>
+        <div class="drum" id="snare" data-key="s">
+            <p>S</p>
+        </div>
+        <div class="drum" id="hihat" data-key="h">
+            <p>H</p>
+        </div>
+        <div class="drum" id="tom" data-key="t">
+            <p>T</p>
+        </div>
+        <div class="drum" id="crash" data-key="c">
+            <p>C</p>
+        </div>
+    </div>
+
+    <audio id="kick-sound" src="sounds/758705__limonka__limon_ka-kick2.wav"></audio>
+    <audio id="snare-sound" src="sounds/13215__annannienann__snaresd-snares-mix-3.wav"></audio>
+    <audio id="hihat-sound" src="sounds/732555__snafic__pd-hh.wav"></audio>
+    <audio id="tom-sound" src="sounds/572815__deadrobotmusic__dr-tom-083.wav"></audio>
+    <audio id="crash-sound" src="sounds/513464__pomeroyjoshua__anu-crash-09.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
