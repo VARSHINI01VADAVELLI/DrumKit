@@ -136,7 +136,7 @@ body {
 }
 
 .drum {
-    background: linear-gradient(135deg, #6fc7d6, #48c6ef);
+    background: linear-gradient(135deg, #7e6fd6, #c848ef);
     border: 5px;
     border-radius: 50%;
     width: 120px;
@@ -153,11 +153,31 @@ body {
 
 .drum:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 20px rgba(108, 158, 125, 0.822);
 }
 
 .drum:active {
     transform: translateY(2px);
     background-color: #ff6f61;
-    box-shadow: 0 8px 15px rgba(255, 111, 97, 0.5);
+    box-shadow: 0 8px 15px rgba(255, 97, 234, 0.5);
+}
+@media(max-width:500px){
+    .drum-kit{
+        width: 80px; 
+        height: 80px; 
+        margin: 5px; 
+       
+        display: block; 
+        flex-wrap: wrap;
+
+    }
+    .drum{
+        width:90%;
+        height: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        
+
+
+    }
 }
